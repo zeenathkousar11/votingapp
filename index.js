@@ -34,7 +34,7 @@ function stopvotes(count){
         console.log("winner among three")
         let greatest=((salmavotes>zeenathvotes&&salmavotes>tarannumvotes)?"salma":((zeenathvotes>tarannumvotes)?"zeenath":"tarannum"))
          console.log(greatest )
-         document.getElementById("displayText").innerHTML="Voting Closed"
+         document.getElementById("displayText").innerHTML="Votings Are Closed"
          alert(`winner is ${greatest}`)
          document.getElementById("text").innerHTML=`Winner is ${greatest}`
     }
